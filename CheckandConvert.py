@@ -1,4 +1,5 @@
 from __future__ import print_function
+from test import MoveFile
 import os
 import subprocess
 #branch=raw_input("Enter branch_name:")
@@ -19,11 +20,15 @@ print (get_branch)
 
 if get_branch=="master":
 	print("Here")
-	print ("Make sure that you have saved changes to master!"),
-	print ("If sure key in Y/N")
-	status = raw_input("Enter status")  # This variable takes in yes or no from user
+	#print ("Make sure that you have saved changes to master!"),
+	#print ("If sure key in Y/N")
+	status = raw_input("Make sure that you have saved changes to master! If sure, key in Y/N")  # This variable takes in yes or no from user
 	if status=="Y":
-	
+		print("We are now ready to move files to Packaging folder!")
+
+		moving_object = MoveFile()
+		moving_object.move()
+
 		
 	else:
 		print ("So you haven't saved changes yet!")

@@ -1,18 +1,40 @@
-'''import subprocess
-
-proc = subprocess.Popen(["git rev-parse --abbrev-ref HEAD"], stdout=subprocess.PIPE, shell=True)
-(out, err) = proc.communicate()
-k=out.strip('\n')
-print (k)'''
-
 import shutil
 import os
+import tarfile
+import subprocess
 
-source = '/tmp/Practice_Ayush/majordir/GIT/Helping-Hand'
-dest1 = '/tmp/Practice_Ayush/production/scripts'
 
+class MoveFile:
 
-files = os.listdir(source)
+	def move(self):
+		source = '/tmp/Practice_Ayush/majordir/GIT/Helping-Hand'
+		dest1 = '/tmp/Practice_Ayush/production/scripts'
+		if os.path.isdir(dest1):
+			os.rmdir(dest1)
 
-for f in files:
-        shutil.move(source+f, dest1)
+			files = os.listdir(source)
+                        for f in files:
+                                if os.path.isdir(source+'/'+f):
+                                #print(f)
+                                        shutil.rmtree(dest1, True)
+                                        shutil.copytree(source+'/'+f,dest1,symlinks=False,ignore=None)
+                                else:
+                                        shutil.copy(source+'/'+f,dest1)
+
+		else:
+
+			files = os.listdir(source)
+			for f in files:
+				if os.path.isdir(source+'/'+f):
+				#print(f)
+					shutil.rmtree(dest1, True)
+					shutil.copytree(source+'/'+f,dest1,symlinks=False,ignore=None)
+				else:
+					shutil.copy(source+'/'+f,dest1)
+
+		tar = tarfile.open("scripts.tar", "w:tar")
+		for filename in os.listdir(dest1):
+			if filename=="scripts":
+                		tar.add(filename)
+
+		tar.close()
