@@ -34,4 +34,11 @@ if get_branch=="master":
 		print ("So you haven't saved changes yet!")
 		exit()
 
+else:
+	print("Please update the changes to master if required!")
+	status2=raw_input("Would you like to make changes!")
+	if status2=="Y":
+		print("Done!")
+	else:
+		
 
