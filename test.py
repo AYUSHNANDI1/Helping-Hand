@@ -32,7 +32,7 @@ class MoveFile:
 		print("Moved all the files sucessfully!!")
 
 		directory=str('/tmp/Practice_Ayush/production/')
-		tar = tarfile.open("/tmp/Practice_Ayush/production/finallyyyy.tar", "w:gz")
+		tar = tarfile.open("/tmp/Practice_Ayush/production/scripts.tar", "w:tar")
 		#print(os.listdir(directory))
 		for filename in os.listdir(directory):
 			#print (filename)
