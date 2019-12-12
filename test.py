@@ -10,14 +10,14 @@ class MoveFile:
 		source = '/tmp/Practice_Ayush/majordir/GIT/Helping-Hand'
 		dest1 = '/tmp/Practice_Ayush/production/scripts'
 		if not os.path.isdir(dest1):
-			os.mkdir(dest1, 0o755)
+			os.mkdir(dest1)
 			print ("Directory Script made!")
 			#shutil.rmtree(dest1)
 		else:
 			print("Deletiing old directory!")
 			shutil.rmtree(dest1)
 			#est1='/tmp/Practice_Ayush/production/scripts'
-			os.mkdir(dest1, 0o755)
+			os.mkdir(dest1)
 			print("Created new directory Script!")
 
 			
@@ -26,18 +26,18 @@ class MoveFile:
 			if os.path.isdir(source+'/'+f):
 				shutil.rmtree(dest1, True)
                                 shutil.copytree(source+'/'+f,dest1,symlinks=False,ignore=None)
+				print("Moved tthe directories!")
                         else:
                                 shutil.copy(source+'/'+f,dest1)
-		'''with tarfile.open("samp.tar", "w:gz") as tar:
-			tar.add('/tmp/Practice_Ayush/production/', arcname=os.path('/tmp/Practice_Ayush/production/'))'''
+		print("Moved all the files sucessfully!!")
 
-		directory=str('/tmp/Practice_Ayush/production/scripts')
-		tar = tarfile.open("/tmp/Practice_Ayush/production/Scripts.tar", "w:gz")
+		directory=str('/tmp/Practice_Ayush/production/')
+		tar = tarfile.open("/tmp/Practice_Ayush/production/finallyyyy.tar", "w:gz")
 		#print(os.listdir(directory))
 		for filename in os.listdir(directory):
 			#print (filename)
-			#if filename=="scripts":
-				#print("Found!")
-                		tar.add(filename)
-				exit()
+			if filename=="scripts":
+				print("Found!: ", filename)
+                		tar.add('/tmp/Practice_Ayush/production/'+filename)
+				#exit()
 		tar.close()

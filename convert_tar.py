@@ -1,15 +1,15 @@
 import tarfile
 import os
 import subprocess
-direct= subprocess.check_output(['pwd'])
-direct=direct.rstrip()
-directory=str(direct)
-print(os.listdir(directory))
-
+#direct= subprocess.check_output(['pwd'])
+#direct=direct.rstrip()
+#directory=str(direct)
+k=(os.listdir('/tmp/Practice_Ayush/production/'))
+print(k)
 tar = tarfile.open("sample.tar", "w:tar")
-for filename in os.listdir(directory):
-	if filename=="majordir":
-		tar.add(filename)
-
-tar.close()
-	
+#print(os.listdir('/tmp/Practice_Ayush/production/'))
+for filename in k:
+        #if filename == "new":
+	print(filename)
+        tar.add(filename)
+tar.close()	
