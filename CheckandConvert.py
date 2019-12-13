@@ -30,4 +30,3 @@ else:
 	pul = pullChanges()
 	pul.changePull()
 		
-		exit()
