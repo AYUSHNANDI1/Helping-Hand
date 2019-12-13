@@ -32,4 +32,5 @@ else:
 	pul = pullChanges()
 	pul.changePull()
 	print("Now packing the local branches!")
-	moving_object.moveLocal()			
+	moving_object1 = MoveFile()
+	moving_object1.moveLocal()			
