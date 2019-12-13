@@ -8,6 +8,8 @@ proc = subprocess.Popen(["git rev-parse --abbrev-ref HEAD"], stdout=subprocess.P
 get_branch=out.strip('\n')
 print (get_branch)
 
+moving_object = MoveFile()
+
 if get_branch=="master":
 	#print("Here")
 	#print ("Make sure that you have saved changes to master!"),
@@ -29,4 +31,5 @@ else:
 	#status2=raw_input("Would you like to make changes!")
 	pul = pullChanges()
 	pul.changePull()
-		
+	print("Now packing the local branches!")
+	moving_object.moveLocal()			

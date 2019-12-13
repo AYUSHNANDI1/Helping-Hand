@@ -7,6 +7,7 @@ import subprocess
 class MoveFile:
 
 	def move(self):
+		print("Converting tar in Production")
 		source = '/tmp/Practice_Ayush/majordir/GIT/Helping-Hand'
 		dest1 = '/tmp/Practice_Ayush/production/scripts'
 		if not os.path.isdir(dest1):
@@ -42,6 +43,7 @@ class MoveFile:
 				#exit()
 		tar.close()
 	def moveLocal(self):
+		print("Converting tar only in local")
 		source = '/tmp/Practice_Ayush/majordir/GIT/Helping-Hand'
                 dest1 = '/tmp/Practice_Ayush/majordir/GIT/Helping-Hand/DEV'
                 if not os.path.isdir(dest1):
@@ -71,9 +73,9 @@ class MoveFile:
                 #print(os.listdir(directory))
                 for filename in os.listdir(directory):
                         #print (filename)
-                        if filename=="DEV"
+                        if filename=="DEV":
                                 #rint("Found!: ", filename)
-                                tar.add('/tmp/Practice_Ayush/majordir/GIT/Helping-Hand/'+filename)
+                                tar.add(filename)
                                 #exit()
                 tar.close()
 
