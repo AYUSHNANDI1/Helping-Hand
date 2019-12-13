@@ -1,5 +1,6 @@
 from __future__ import print_function
 from test import MoveFile
+from pull import pullChanges
 import os
 import subprocess
 proc = subprocess.Popen(["git rev-parse --abbrev-ref HEAD"], stdout=subprocess.PIPE, shell=True)
@@ -24,10 +25,9 @@ if get_branch=="master":
 		exit()
 
 else:
-	print("Please update the changes to master if required!")
-	status2=raw_input("Would you like to make changes!")
-	if status2=="Y":
-		print("Done!")
-	else:
+	print("This is not master, hence pulling changes first!")
+	#status2=raw_input("Would you like to make changes!")
+	pul = pullChanges()
+	pul.changePull()
 		
 
