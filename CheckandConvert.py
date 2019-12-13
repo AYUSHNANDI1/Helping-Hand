@@ -30,4 +30,4 @@ else:
 		print("Done!")
 	else:
 		
-
+		exit()
