@@ -1,0 +1,70 @@
+0000000000000000000000000000000000000000 46ed7be30d1bb4731214b9d11afce4ff5faed311 AYUSHNANDI1 <ayushnandikkr@gmail.com> 1576059602 +0100	clone: from https://github.com/AYUSHNANDI1/Helping-Hand.git
+46ed7be30d1bb4731214b9d11afce4ff5faed311 b3a18c4deb3208de69100dbe169ade5d03b2b822 AYUSHNANDI1 <ayushnandikkr@gmail.com> 1576063849 +0100	commit: This is my first project - Version 1.0
+b3a18c4deb3208de69100dbe169ade5d03b2b822 e922c45817a87e61d549dc08db0ce678647472bc AYUSHNANDI1 <ayushnandikkr@gmail.com> 1576069832 +0100	commit: Continuation of v-1.0
+e922c45817a87e61d549dc08db0ce678647472bc c19857f65c87234e941eee96d87fdd13ba8a6255 AYUSHNANDI1 <ayushnandikkr@gmail.com> 1576135303 +0100	commit: Conversion to tar done
+c19857f65c87234e941eee96d87fdd13ba8a6255 d456e602f396ab1d67fa85474a44c90f6e245996 AYUSHNANDI1 <ayushnandikkr@gmail.com> 1576141876 +0100	commit: Conversion to tar done
+d456e602f396ab1d67fa85474a44c90f6e245996 25f3bc60a1b2ea39302f2c1f48346d945ab7f650 AYUSHNANDI1 <ayushnandikkr@gmail.com> 1576141934 +0100	checkout: moving from master to feature_1
+25f3bc60a1b2ea39302f2c1f48346d945ab7f650 d456e602f396ab1d67fa85474a44c90f6e245996 AYUSHNANDI1 <ayushnandikkr@gmail.com> 1576143499 +0100	checkout: moving from feature_1 to master
+d456e602f396ab1d67fa85474a44c90f6e245996 25f3bc60a1b2ea39302f2c1f48346d945ab7f650 AYUSHNANDI1 <ayushnandikkr@gmail.com> 1576143516 +0100	checkout: moving from master to feature_1
+25f3bc60a1b2ea39302f2c1f48346d945ab7f650 d456e602f396ab1d67fa85474a44c90f6e245996 AYUSHNANDI1 <ayushnandikkr@gmail.com> 1576144152 +0100	checkout: moving from feature_1 to master
+d456e602f396ab1d67fa85474a44c90f6e245996 33879b96fe68f3e6742660a45ac27c7dd2d9c153 AYUSHNANDI1 <ayushnandikkr@gmail.com> 1576148366 +0100	commit: Changes done again
+33879b96fe68f3e6742660a45ac27c7dd2d9c153 25f3bc60a1b2ea39302f2c1f48346d945ab7f650 AYUSHNANDI1 <ayushnandikkr@gmail.com> 1576148396 +0100	checkout: moving from master to feature_1
+25f3bc60a1b2ea39302f2c1f48346d945ab7f650 33879b96fe68f3e6742660a45ac27c7dd2d9c153 AYUSHNANDI1 <ayushnandikkr@gmail.com> 1576150184 +0100	merge master: Fast-forward
+33879b96fe68f3e6742660a45ac27c7dd2d9c153 33879b96fe68f3e6742660a45ac27c7dd2d9c153 AYUSHNANDI1 <ayushnandikkr@gmail.com> 1576150811 +0100	checkout: moving from feature_1 to master
+33879b96fe68f3e6742660a45ac27c7dd2d9c153 33879b96fe68f3e6742660a45ac27c7dd2d9c153 AYUSHNANDI1 <ayushnandikkr@gmail.com> 1576154529 +0100	checkout: moving from master to master
+33879b96fe68f3e6742660a45ac27c7dd2d9c153 33879b96fe68f3e6742660a45ac27c7dd2d9c153 AYUSHNANDI1 <ayushnandikkr@gmail.com> 1576154538 +0100	checkout: moving from master to feature_1
+33879b96fe68f3e6742660a45ac27c7dd2d9c153 33879b96fe68f3e6742660a45ac27c7dd2d9c153 AYUSHNANDI1 <ayushnandikkr@gmail.com> 1576155169 +0100	checkout: moving from feature_1 to master
+33879b96fe68f3e6742660a45ac27c7dd2d9c153 9ef49e52e8ddb773e7a71adbb26f6c8d5acb9bc3 AYUSHNANDI1 <ayushnandikkr@gmail.com> 1576155208 +0100	commit: 12/12/2019
+9ef49e52e8ddb773e7a71adbb26f6c8d5acb9bc3 fdfe04e287fb2ee3eab302ba811dc27b898fb4bb AYUSHNANDI1 <ayushnandikkr@gmail.com> 1576224068 +0100	commit: 13/12/2019
+fdfe04e287fb2ee3eab302ba811dc27b898fb4bb 53cab3c9b072e93212eed694ecd3bcc2f18bc430 AYUSHNANDI1 <ayushnandikkr@gmail.com> 1576224730 +0100	commit: 13/12/19
+53cab3c9b072e93212eed694ecd3bcc2f18bc430 53cab3c9b072e93212eed694ecd3bcc2f18bc430 AYUSHNANDI1 <ayushnandikkr@gmail.com> 1576224776 +0100	checkout: moving from master to master
+53cab3c9b072e93212eed694ecd3bcc2f18bc430 33879b96fe68f3e6742660a45ac27c7dd2d9c153 AYUSHNANDI1 <ayushnandikkr@gmail.com> 1576224785 +0100	checkout: moving from master to feature_1
+33879b96fe68f3e6742660a45ac27c7dd2d9c153 84aedb20555c229823afc1d93e40cde2fb7d309e AYUSHNANDI1 <ayushnandikkr@gmail.com> 1576224963 +0100	pull: Fast-forward
+84aedb20555c229823afc1d93e40cde2fb7d309e 53cab3c9b072e93212eed694ecd3bcc2f18bc430 AYUSHNANDI1 <ayushnandikkr@gmail.com> 1576225021 +0100	checkout: moving from feature_1 to master
+53cab3c9b072e93212eed694ecd3bcc2f18bc430 84aedb20555c229823afc1d93e40cde2fb7d309e AYUSHNANDI1 <ayushnandikkr@gmail.com> 1576225062 +0100	checkout: moving from master to feature_1
+84aedb20555c229823afc1d93e40cde2fb7d309e c7cfcdc0089921daf03daccc231fe8a40354af92 AYUSHNANDI1 <ayushnandikkr@gmail.com> 1576225232 +0100	commit: 13/12/19
+c7cfcdc0089921daf03daccc231fe8a40354af92 e0b50a87e82a1b84620fee614fb3545935121ef1 AYUSHNANDI1 <ayushnandikkr@gmail.com> 1576225355 +0100	pull origin master: Merge made by the 'recursive' strategy.
+e0b50a87e82a1b84620fee614fb3545935121ef1 65aa1eef3bc87951ceb7d46e44f88f87555c7370 AYUSHNANDI1 <ayushnandikkr@gmail.com> 1576225812 +0100	pull origin master: Merge made by the 'recursive' strategy.
+65aa1eef3bc87951ceb7d46e44f88f87555c7370 56494a17a6a6ee25055885518a859c5fe479b9a3 AYUSHNANDI1 <ayushnandikkr@gmail.com> 1576225952 +0100	commit: 13/12/2019
+56494a17a6a6ee25055885518a859c5fe479b9a3 53cab3c9b072e93212eed694ecd3bcc2f18bc430 AYUSHNANDI1 <ayushnandikkr@gmail.com> 1576226010 +0100	checkout: moving from feature_1 to master
+53cab3c9b072e93212eed694ecd3bcc2f18bc430 56494a17a6a6ee25055885518a859c5fe479b9a3 AYUSHNANDI1 <ayushnandikkr@gmail.com> 1576226815 +0100	checkout: moving from master to feature_1
+56494a17a6a6ee25055885518a859c5fe479b9a3 a3a6dcc15c080aa47f0dad14befe7fd7db0970eb AYUSHNANDI1 <ayushnandikkr@gmail.com> 1576226878 +0100	pull: Fast-forward
+a3a6dcc15c080aa47f0dad14befe7fd7db0970eb dc8e06a75d93be1a03f8182f348c2b1118febf70 AYUSHNANDI1 <ayushnandikkr@gmail.com> 1576226937 +0100	commit: 13/12
+dc8e06a75d93be1a03f8182f348c2b1118febf70 53cab3c9b072e93212eed694ecd3bcc2f18bc430 AYUSHNANDI1 <ayushnandikkr@gmail.com> 1576227114 +0100	checkout: moving from feature_1 to master
+53cab3c9b072e93212eed694ecd3bcc2f18bc430 951253e0e82b2e47115207adeb9084d696886301 AYUSHNANDI1 <ayushnandikkr@gmail.com> 1576227461 +0100	pull https://github.com/AYUSHNANDI1/Helping-Hand.git: Fast-forward
+951253e0e82b2e47115207adeb9084d696886301 49c46977e8a6a5592a42a1be2718b515b6587a51 AYUSHNANDI1 <ayushnandikkr@gmail.com> 1576228205 +0100	commit: 13/12/19
+49c46977e8a6a5592a42a1be2718b515b6587a51 dc8e06a75d93be1a03f8182f348c2b1118febf70 AYUSHNANDI1 <ayushnandikkr@gmail.com> 1576228245 +0100	checkout: moving from master to feature_1
+dc8e06a75d93be1a03f8182f348c2b1118febf70 aa2895debf610d895d75010fcb799ca8ff78b8cd AYUSHNANDI1 <ayushnandikkr@gmail.com> 1576228291 +0100	pull origin master: Merge made by the 'recursive' strategy.
+aa2895debf610d895d75010fcb799ca8ff78b8cd 296f27b07f860d7222902c9e6edad995ac36dd31 AYUSHNANDI1 <ayushnandikkr@gmail.com> 1576228832 +0100	commit: 13/12/19
+296f27b07f860d7222902c9e6edad995ac36dd31 49c46977e8a6a5592a42a1be2718b515b6587a51 AYUSHNANDI1 <ayushnandikkr@gmail.com> 1576228885 +0100	checkout: moving from feature_1 to master
+49c46977e8a6a5592a42a1be2718b515b6587a51 035026657c0c9dace7ecf6941984a35c0c4e9230 AYUSHNANDI1 <ayushnandikkr@gmail.com> 1576230183 +0100	commit: 13/12/19
+035026657c0c9dace7ecf6941984a35c0c4e9230 296f27b07f860d7222902c9e6edad995ac36dd31 AYUSHNANDI1 <ayushnandikkr@gmail.com> 1576230239 +0100	checkout: moving from master to feature_1
+296f27b07f860d7222902c9e6edad995ac36dd31 24e6f945f659952d7315ee07d4895d339d412643 AYUSHNANDI1 <ayushnandikkr@gmail.com> 1576230354 +0100	pull origin master: Merge made by the 'recursive' strategy.
+24e6f945f659952d7315ee07d4895d339d412643 3bf67914a7c48260def932c558c985c9e198878e AYUSHNANDI1 <ayushnandikkr@gmail.com> 1576231691 +0100	commit: 13/12/19
+3bf67914a7c48260def932c558c985c9e198878e 035026657c0c9dace7ecf6941984a35c0c4e9230 AYUSHNANDI1 <ayushnandikkr@gmail.com> 1576231714 +0100	checkout: moving from feature_1 to master
+035026657c0c9dace7ecf6941984a35c0c4e9230 3bf67914a7c48260def932c558c985c9e198878e AYUSHNANDI1 <ayushnandikkr@gmail.com> 1576231755 +0100	checkout: moving from master to feature_1
+3bf67914a7c48260def932c558c985c9e198878e 7f9cf828cbf24b1765d98b7d3850238c754fe031 AYUSHNANDI1 <ayushnandikkr@gmail.com> 1576235199 +0100	commit: 13/12/19
+7f9cf828cbf24b1765d98b7d3850238c754fe031 035026657c0c9dace7ecf6941984a35c0c4e9230 AYUSHNANDI1 <ayushnandikkr@gmail.com> 1576235230 +0100	checkout: moving from feature_1 to master
+035026657c0c9dace7ecf6941984a35c0c4e9230 7f9cf828cbf24b1765d98b7d3850238c754fe031 AYUSHNANDI1 <ayushnandikkr@gmail.com> 1576235281 +0100	pull origin feature_1: Fast-forward
+7f9cf828cbf24b1765d98b7d3850238c754fe031 7f9cf828cbf24b1765d98b7d3850238c754fe031 AYUSHNANDI1 <ayushnandikkr@gmail.com> 1576235570 +0100	checkout: moving from master to feature_1
+7f9cf828cbf24b1765d98b7d3850238c754fe031 a8556262238f4740a32fae480335586c2bd13e08 AYUSHNANDI1 <ayushnandikkr@gmail.com> 1576235692 +0100	pull: Fast-forward
+a8556262238f4740a32fae480335586c2bd13e08 3852e0f628f4c99cb6436b5a728159e0dcd65df1 AYUSHNANDI1 <ayushnandikkr@gmail.com> 1576235859 +0100	pull: Fast-forward
+3852e0f628f4c99cb6436b5a728159e0dcd65df1 7f9cf828cbf24b1765d98b7d3850238c754fe031 AYUSHNANDI1 <ayushnandikkr@gmail.com> 1576238114 +0100	checkout: moving from feature_1 to master
+7f9cf828cbf24b1765d98b7d3850238c754fe031 3852e0f628f4c99cb6436b5a728159e0dcd65df1 AYUSHNANDI1 <ayushnandikkr@gmail.com> 1576472829 +0100	checkout: moving from master to feature_1
+3852e0f628f4c99cb6436b5a728159e0dcd65df1 7f9cf828cbf24b1765d98b7d3850238c754fe031 AYUSHNANDI1 <ayushnandikkr@gmail.com> 1576477185 +0100	checkout: moving from feature_1 to master
+7f9cf828cbf24b1765d98b7d3850238c754fe031 3852e0f628f4c99cb6436b5a728159e0dcd65df1 AYUSHNANDI1 <ayushnandikkr@gmail.com> 1576477744 +0100	checkout: moving from master to feature_1
+3852e0f628f4c99cb6436b5a728159e0dcd65df1 3852e0f628f4c99cb6436b5a728159e0dcd65df1 AYUSHNANDI1 <ayushnandikkr@gmail.com> 1576477754 +0100	checkout: moving from feature_1 to feature_1
+3852e0f628f4c99cb6436b5a728159e0dcd65df1 3852e0f628f4c99cb6436b5a728159e0dcd65df1 AYUSHNANDI1 <ayushnandikkr@gmail.com> 1576478486 +0100	checkout: moving from feature_1 to feature_1
+3852e0f628f4c99cb6436b5a728159e0dcd65df1 3852e0f628f4c99cb6436b5a728159e0dcd65df1 AYUSHNANDI1 <ayushnandikkr@gmail.com> 1576478822 +0100	checkout: moving from feature_1 to feature_1
+3852e0f628f4c99cb6436b5a728159e0dcd65df1 3852e0f628f4c99cb6436b5a728159e0dcd65df1 AYUSHNANDI1 <ayushnandikkr@gmail.com> 1576478914 +0100	checkout: moving from feature_1 to feature_1
+3852e0f628f4c99cb6436b5a728159e0dcd65df1 3852e0f628f4c99cb6436b5a728159e0dcd65df1 AYUSHNANDI1 <ayushnandikkr@gmail.com> 1576479360 +0100	checkout: moving from feature_1 to feature_1
+3852e0f628f4c99cb6436b5a728159e0dcd65df1 3852e0f628f4c99cb6436b5a728159e0dcd65df1 AYUSHNANDI1 <ayushnandikkr@gmail.com> 1576479724 +0100	reset: moving to HEAD
+3852e0f628f4c99cb6436b5a728159e0dcd65df1 68f05b193d879e51bd14d480ef39558d6bd25a27 AYUSHNANDI1 <ayushnandikkr@gmail.com> 1576479780 +0100	commit: 16/12/19
+68f05b193d879e51bd14d480ef39558d6bd25a27 7f9cf828cbf24b1765d98b7d3850238c754fe031 AYUSHNANDI1 <ayushnandikkr@gmail.com> 1576479987 +0100	checkout: moving from feature_1 to master
+7f9cf828cbf24b1765d98b7d3850238c754fe031 a35c037f00ec8e1d3fded5e4cf48d36841b0469f AYUSHNANDI1 <ayushnandikkr@gmail.com> 1576480165 +0100	commit: 16/12/19
+a35c037f00ec8e1d3fded5e4cf48d36841b0469f 68f05b193d879e51bd14d480ef39558d6bd25a27 AYUSHNANDI1 <ayushnandikkr@gmail.com> 1576480188 +0100	checkout: moving from master to feature_1
+68f05b193d879e51bd14d480ef39558d6bd25a27 3bf99c5a286f5a2844cbae4f5369beaaa71a694e AYUSHNANDI1 <ayushnandikkr@gmail.com> 1576480393 +0100	commit: 16/12/19
+3bf99c5a286f5a2844cbae4f5369beaaa71a694e e671c85a986b5d860744a7d7f6f4eda9e60655bf AYUSHNANDI1 <ayushnandikkr@gmail.com> 1576480422 +0100	commit: 16/12/19
+e671c85a986b5d860744a7d7f6f4eda9e60655bf a35c037f00ec8e1d3fded5e4cf48d36841b0469f AYUSHNANDI1 <ayushnandikkr@gmail.com> 1576480482 +0100	checkout: moving from feature_1 to master
+a35c037f00ec8e1d3fded5e4cf48d36841b0469f a35c037f00ec8e1d3fded5e4cf48d36841b0469f AYUSHNANDI1 <ayushnandikkr@gmail.com> 1576480521 +0100	checkout: moving from master to master
+a35c037f00ec8e1d3fded5e4cf48d36841b0469f e671c85a986b5d860744a7d7f6f4eda9e60655bf AYUSHNANDI1 <ayushnandikkr@gmail.com> 1576480597 +0100	checkout: moving from master to feature_1
