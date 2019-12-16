@@ -14,18 +14,23 @@ if get_branch=="master":
 	#print("Here")
 	#print ("Make sure that you have saved changes to master!"),
 	#print ("If sure key in Y/N")
-	status = raw_input("Make sure that you have saved changes to master! If sure, key in Y/N:")  # This variable takes in yes or no from user
-	if status=="Y":
-		print("We are now ready to move files to Packaging folder!")
-
-		moving_object = MoveFile()
-		moving_object.move()
-
+	#status = raw_input("Make sure that you have saved changes to master! If sure, key in Y/N:")  # This variable takes in yes or no from user
+	#if status=="Y":
+	#	print("We are now ready to move files to Packaging folder!")
+	#
+	#	moving_object = MoveFile()
+	#	moving_object.move()
+	
 		
-	else:
-		print ("So you haven't saved changes yet!")
-		exit()
-
+	#else:
+	#	print ("So you haven't saved changes yet!")
+	#	exit()
+	print("Pulling changes first")
+	pul = pullChanges()
+        pul.changePull()
+        print("Now packing branches to production!")
+        moving_object1 = MoveFile()
+        moving_object1.moveLocal()
 else:
 	print("This is not master, hence pulling changes first!")
 	#status2=raw_input("Would you like to make changes!")
