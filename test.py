@@ -72,7 +72,7 @@ class MoveFile:
                                 shutil.copy(source+'/'+f,dest1)
                 #print("Moved all the files sucessfully!!")
 
-                directory=str(dest1)
+                directory=str(source)
                 tar = tarfile.open("/tmp/Practice_Ayush/majordir/GIT/Helping-Hand/ALL-TEST_DEV.tar", "w:tar")
                 #print(os.listdir(directory))
                 for filename in os.listdir(directory):
@@ -82,10 +82,9 @@ class MoveFile:
                                 #print("Moved the directories succesfully!")
                                 pass
                         else:
-                                print(filename)
+                                #print(filename)
                                 tar.add(filename)
                                 #exit()
-                os.remove(dest1)
                 tar.close()
-                os.remove(dest1)
+                shutil.rmtree(dest1)
                 print("Destination directory deleted!")
