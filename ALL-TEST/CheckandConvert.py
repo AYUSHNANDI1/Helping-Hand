@@ -34,7 +34,7 @@ if get_branch=="master":
         pul.changePull()
         print("Now packing branches to production!")
         moving_object1 = MoveFile()
-        moving_object1.moveLocal()
+        moving_object1.move()
 
 else:
 		
