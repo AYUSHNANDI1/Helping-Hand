@@ -83,5 +83,6 @@ class MoveFile:
 			else:
 				tar.add(filename)
                                 #exit()
+		os.remove(dest1)
                 tar.close()
 
