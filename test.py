@@ -89,8 +89,3 @@ class MoveFile:
                 tar.close()
                 os.remove(dest1)
                 print("Destination directory deleted!")
-
-~
-~
-~
-
