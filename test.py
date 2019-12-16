@@ -25,14 +25,14 @@ class MoveFile:
 		files = os.listdir(source)
                 for f in files:
 			if os.path.isdir(source+'/'+f):
-				shutil.rmtree(dest1, True)
-                                shutil.copytree(source+'/'+f,dest1,symlinks=False,ignore=None)
-				print("Moved the directories succesfully!")
+				#shutil.rmtree(dest1, True)
+                                #shutil.copytree(source+'/'+f,dest1,symlinks=False,ignore=None)
+				print("Did not move any git file!")
                         else:
                                 shutil.copy(source+'/'+f,dest1)
 		print("Moved all the files sucessfully!!")
 
-		directory=str('/tmp/Practice_Ayush/production/')
+		directory=str(source)
 		tar = tarfile.open("/tmp/Practice_Ayush/production/scripts.tar", "w:tar")
 		#print(os.listdir(directory))
 		for filename in os.listdir(directory):
@@ -71,7 +71,7 @@ class MoveFile:
                                 shutil.copy(source+'/'+f,dest1)
                 #print("Moved all the files sucessfully!!")
 
-                directory=str(source)
+                directory=str(dest1)
                 tar = tarfile.open("/tmp/Practice_Ayush/majordir/GIT/Helping-Hand/ALL-TEST_DEV.tar", "w:tar")
                 #print(os.listdir(directory))
                 for filename in os.listdir(directory):
@@ -83,6 +83,8 @@ class MoveFile:
 			else:
 				tar.add(filename)
                                 #exit()
-		os.remove(dest1)
                 tar.close()
+		os.remove(dest1)
+                print("Destination directory deleted!")
+
 
