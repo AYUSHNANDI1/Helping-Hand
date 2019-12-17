@@ -60,7 +60,7 @@ class allfunction:
                 proc = subprocess.Popen(["git rev-parse --abbrev-ref HEAD"], stdout=subprocess.PIPE, shell=True)
                 (out, err) = proc.communicate()
                 if out == "master":
-
+			print("Heyyyyy I havee commeee to MASTERRRRRRR!")
                         directory=str(dest1)
                         tar = tarfile.open("/tmp/Practice_Ayush/scripts.tar", "w:tar")
                         #print(os.listdir(directory))
