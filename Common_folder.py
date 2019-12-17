@@ -59,6 +59,7 @@ class allfunction:
                 '''Compare here whether master branch or else..'''
                 proc = subprocess.Popen(["git rev-parse --abbrev-ref HEAD"], stdout=subprocess.PIPE, shell=True)
                 (out, err) = proc.communicate()
+		print("This is"+out+"branch")
                 if out == "master":
 			print("Heyyyyy I havee commeee to MASTERRRRRRR!")
                         directory=str(dest1)
